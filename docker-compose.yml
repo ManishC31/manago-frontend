@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  nextjs:
+    image: manago-frotend
+    build: .
+    container_name: manago-frontend-container
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app # this enables hot reload for development purpose.
+      - /app/node_modules # Prevents node_modules conflict between host and container.
+    environment:
+      - NODE_ENV=development
+      - NEXT_PUBLIC_API_URL="http://localhost:8080/api"
