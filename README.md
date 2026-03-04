@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Business Management Application
 
-## Getting Started
+A modern, scalable business management platform built with **Next.js**.  
+This application helps organizations manage operations, users, and business workflows efficiently.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is a full-stack business management system designed with scalability, maintainability, and performance in mind.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+It provides:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Organization management
+- Role-based authentication
+- Secure login (OAuth + Email/Password)
+- Device/session tracking
+- Dashboard analytics
+- Modular architecture for easy extension
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🏗️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Frontend
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
 
-## Deploy on Vercel
+### Backend
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js API Routes / Separate Node.js Backend (if applicable)
+- Prisma ORM
+- PostgreSQL (or your DB)
+- JWT Authentication / NextAuth
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### DevOps
+
+- Docker (for containerized development)
+- ESLint + Prettier
+- Environment-based configuration
+
+---
+
+## 📂 Project Structure
